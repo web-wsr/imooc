@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../imooc/css/reset.css">
+    <link rel="stylesheet" href="../imooc/css/index.css">
+    <link rel="stylesheet" href="../imooc/iconfont/iconfont.css">
+    <title>慕课网-程序员的梦工厂</title>
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="header-wapper">
+            <div class="header-content">
+                <div class="header-common">
+                    <div class="header-logo">
+                        <a class="header-logo-link" href="javascript:;">
+                            <img class="header-logo-img" src="../imooc/img/header-logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header-menu">
+                        <a class="header-menu-item" href="javascript:;">免费课</a>
+                        <a class="header-menu-item" href="javascript:;">实战课</a>
+                        <a class="header-menu-item" href="javascript:;">体系课</a>
+                        <a class="header-menu-item" href="javascript:;">成长课</a>
+                        <a class="header-menu-item" href="javascript:;">发现</a>
+                        <a class="header-menu-item" href="javascript:;">商业合作</a>
+                    </div>
+                    <div class="header-search">
+                        <div class="search-area">
+                            <input class="search-input" placeholder="请输入关键字..." type="text">
+                            <a class="hottages-gpt" href="javascript:;" target="_blank">GPT</a>
+                            <a class="hottages-python" href="javascript:;" target="_blank">Python</a>
+                        </div>
+                        <div class="search-btn">
+                            <div class="search-btn-icon"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-user">
+                    <div class="user-shop">
+                        <a class="user-shop-icon" href="javascript:;">
+                            <span class="iconfont icon-ai66"></span>
+                        </a>
+                    </div>
+                    <div class="user-sign">
+                        <a class="user-signin" href="javascript:;">登录</a>
+                        /
+                        <a class="user-signup" href="javascript:;">注册</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="page-mainer">
+        <section class="banner-section">
+            <div class="banner-main">
+                <div class="main-menu-list">
+                    <div class="menu-item">
+                        <span class="menu-title">前端开发：</span>
+                        <span class="menu-subtitle">HTML5 / Vue.js / Node.js</span>
+                        <i class="iconfont icon-arrow"></i>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-title">后端开发：</span>
+                        <span class="menu-subtitle">Java / Python / Go</span>
+                        <i class="iconfont icon-arrow"></i>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-title">移动开发：</span>
+                        <span class="menu-subtitle">Flutter / Android / iOS </span>
+                        <i class="iconfont icon-arrow"></i>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-title">计算机基础：</span>
+                        <span class="menu-subtitle">算法 / 数学 / 数据库</span>
+                        <i class="iconfont icon-arrow"></i>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-title">前沿技术：</span>
+                        <span class="menu-subtitle">AI / 大数据 / 数据分析</span>
+                        <i class="iconfont icon-arrow"></i>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-title">测试运维：</span>
+                        <span class="menu-subtitle">自动化测试 / 容器</span>
+                        <i class="iconfont icon-arrow"></i>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-title">更多方向：</span>
+                        <span class="menu-subtitle">产品设计 / UI设计 / 游戏</span>
+                        <i class="iconfont icon-arrow"></i>
+                    </div>
+                </div>
+                <div class="main-carousel">
+                    <div class="main-carousel-slider">
+                        <div class="carousel-slider-wrapper">
+                            <img class="carousel-slider-img" src="../imooc/img/carousel-webrtc.jpg" alt="">
+                        </div>
+                        <div class="carousel-slider-wrapper">
+                            <img class="carousel-slider-img" src="../imooc/img/carousel-go-zero.jpg" alt="">
+                        </div>
+                        <div class="carousel-slider-wrapper">
+                            <img class="carousel-slider-img" src="../imooc/img/carousel-swift.jpg" alt="">
+                        </div>
+                        <div class="carousel-slider-wrapper">
+                            <img class="carousel-slider-img" src="../imooc/img/carousel-agent.jpg" alt="">
+                        </div>
+                        <div class="carousel-slider-wrapper">
+                            <img class="carousel-slider-img" src="../imooc/img/carousel-harmonyos.jpg" alt="">
+                        </div>
+                        <div class="carousel-slider-wrapper">
+                            <img class="carousel-slider-img" src="../imooc/img/carousel-product.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-submain">
+                <div class="submain-course-list">
+                    <a class="course-item">
+                        <div class="course-img java-img"></div>
+                        <div class="course-info">
+                            <h4 class="info-title">Java工程师</h4>
+                            <p class="info-subtitle">助力成就硬核工程师</p>
+                        </div>
+                    </a>
+                    <a class="course-item">
+                        <div class="course-img front-img"></div>
+                        <div class="course-info">
+                            <h4 class="info-title">前端工程师</h4>
+                            <p class="info-subtitle">0基础入门，高水准就业</p>
+                        </div>
+                    </a>
+                    <a class="course-item">
+                        <div class="course-img python-img"></div>
+                        <div class="course-info">
+                            <h4 class="info-title">Python工程师</h4>
+                            <p class="info-subtitle">全能人才的首选</p>
+                        </div>
+                    </a>
+                    <a class="course-item">
+                        <div class="course-img harmonyos-img"></div>
+                        <div class="course-info">
+                            <h4 class="info-title">鸿蒙开发工程师</h4>
+                            <p class="info-subtitle">2024职业“薪”机遇</p>
+                        </div>
+                    </a>
+                    <a class="course-item">
+                        <div class="course-img algorithm-img"></div>
+                        <div class="course-info">
+                            <h4 class="info-title">全栈算法工程师</h4>
+                            <p class="info-subtitle">从基础到AI发展之旅</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="submain-course-line"></div>
+                <a class="submain-course-more">
+                    <div class="course-name">体系课</div>
+                    <div class="course-arrow">more</div>
+                </a>
+            </div>
+        </section>
+        <section class="hot-section">
+            <div class="hot-news">
+                <h3 class="news-title">
+                    <div class="title-menu">
+                        <a class="title-item" href="javascript:;">推荐</a>
+                        <a class="title-item" href="javascript:;">前端开发</a>
+                        <a class="title-item" href="javascript:;">后端开发</a>
+                        <a class="title-item" href="javascript:;">精品免费</a>
+                    </div>
+                </h3>
+                <div class="news-list">
+                    <a class="news-item">
+                        <div class="card-news-top card-news-react">
+                            <span class="news-tag"></span>
+                        </div>
+                        <div class="card-news-bottom">
+                            <p class="card-news-title">前端跳槽突围课，React18底层源码深入剖析</p>
+                            <p class="card-news-difficulty">高级 · 13人报名</p>
+                            <div class="card-news-price">
+                                <span class="price-label">
+                                    <i class="label-discount">上新特惠</i>
+                                </span>
+                                <span class="price-current">￥349.00</span>
+                                <span class="price-original">￥399.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="news-item">
+                        <div class="card-news-top card-news-webrtc">
+                            <span class="news-tag"></span>
+                        </div>
+                        <div class="card-news-bottom">
+                            <p class="card-news-title">音视频高手突围课--WebRTC企业级高性能后台服务实战</p>
+                            <p class="card-news-difficulty">中级 · 4人报名 </p>
+                            <div class="card-news-price">
+                                <span class="price-label">
+                                    <i class="label-discount">上新特惠</i>
+                                </span>
+                                <span class="price-current">￥599.00</span>
+                                <span class="price-original">￥699.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="news-item">
+                        <div class="card-news-top card-news-agent">
+                            <span class="news-tag"></span>
+                        </div>
+                        <div class="card-news-bottom">
+                            <p class="card-news-title">AI Agent智能应用从0到1定制开发 全流程解决方案实战</p>
+                            <p class="card-news-difficulty">中级 · 180人报名 </p>
+                            <div class="card-news-price">
+                                <span class="price-label">
+                                    <i class="label-discount">上新特惠</i>
+                                </span>
+                                <span class="price-current">￥318.00</span>
+                                <span class="price-original">￥368.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="news-item">
+                        <div class="card-news-top card-news-algorithm">
+                            <span class="news-tag"></span>
+                        </div>
+                        <div class="card-news-bottom">
+                            <p class="card-news-title">小白算法集训营-大幅提升刷题量，快速逃离新手区</p>
+                            <p class="card-news-difficulty">中级 · 38人报名</p>
+                            <div class="card-news-price">
+                                <span class="price-label">
+                                    <i class="label-discount">上新特惠</i>
+                                </span>
+                                <span class="price-current">￥169.00</span>
+                                <span class="price-original">￥199.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="news-item">
+                        <div class="card-news-top card-news-go">
+                            <span class="news-tag"></span>
+                        </div>
+                        <div class="card-news-bottom">
+                            <p class="card-news-title">Go从入门到进阶，大厂案例全流程实践</p>
+                            <p class="card-news-difficulty">中级 · 42人报名 </p>
+                            <div class="card-news-price">
+                                <span class="price-label">
+                                    <i class="label-discount">上新特惠</i>
+                                </span>
+                                <span class="price-current">￥269.00</span>
+                                <span class="price-original">￥299.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="news-item">
+                        <div class="card-news-top card-news-diffusion">
+                            <span class="news-tag"></span>
+                        </div>
+                        <div class="card-news-bottom">
+                            <p class="card-news-title">Stable Diffusion 商业变现与绘画大模型多场景实战</p>
+                            <p class="card-news-difficulty">中级 · 111人报名</p>
+                            <div class="card-news-price">
+                                <span class="price-label">
+                                    <i class="label-discount">上新特惠</i>
+                                </span>
+                                <span class="price-current">￥449.00</span>
+                                <span class="price-original">￥499.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="news-item">
+                        <div class="card-news-top card-news-full">
+                            <span class="news-tag"></span>
+                        </div>
+                        <div class="card-news-bottom">
+                            <p class="card-news-title">低代码全栈项目实战 商业级海报编辑器全流程落地</p>
+                            <p class="card-news-difficulty">中级 · 23人报名 </p>
+                            <div class="card-news-price">
+                                <span class="price-label">
+                                    <i class="label-discount">上新特惠</i>
+                                </span>
+                                <span class="price-current">￥1099.00</span>
+                                <span class="price-original">￥1299.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="news-item">
+                        <div class="card-news-top card-news-csre">
+                        </div>
+                        <div class="card-news-bottom">
+                            <p class="card-news-title">5月开考，火热报名中，系统架构设计师（软考高级）</p>
+                            <p class="card-news-difficulty">高级 · 98人报名 </p>
+                            <div class="card-news-price">
+                                <span class="price-current">￥1299.00</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="mooc-section">
+            <div class="mooc-live">
+                <h3 class="live-title">
+                    <span class="title-describe">互联网一线企业大佬在线直播 深度讲解提升技术能力</span>
+                </h3>
+                <div class="live-list">
+                    <a class="live-item">
+                        <div class="live-img live-lot"></div>
+                        <p class="live-detail">行业一线大佬带你体验万物互联时代全新技术</p>
+                        <div class="live-callback">
+                            <button class="callback-btn">直播回放</button>
+                        </div>
+                    </a>
+                    <a class="live-item">
+                        <div class="live-img live-ai"></div>
+                        <p class="live-detail">面向前端程序员的AI时代红利：职业发展与转型策略</p>
+                        <div class="live-callback">
+                            <button class="callback-btn">直播回放</button>
+                        </div>
+                    </a>
+                    <a class="live-item">
+                        <div class="live-img live-back"></div>
+                        <p class="live-detail">后端求职攻略：从简历到面试全面解析求职技巧</p>
+                        <div class="live-callback">
+                            <button class="callback-btn">直播回放</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="mooc-ranking">
+                <h3 class="ranking-title">
+                    <span class="title-describe">以近7日购买、学习相关数据为依据；每日更新</span>
+                </h3>
+                <div class="ranking-list">
+                    <div class="ranking-item">
+                        <a class="ranking-tag ranking-bestselling" href="javascript:;" target="_blank">畅销榜</a>
+                        <div class="ranking-class">
+                            <a class="ranking-class-item ranking-class-first" href="javascript:;" target="_blank">
+                                <div class="class-num-first"></div>
+                                <img class="class-img" src="../imooc/img/class-ai.png" alt="">
+                                <div class="class-info">
+                                    <div class="class-info-title">程序员的 AI 启蒙课，ChatGPT 辅助开发 Vue3 项目</div>
+                                    <div class="class-info-price">¥199.00</div>
+                                    <div class="class-info-studying">735人在学</div>
+                                </div>
+                            </a>
+                            <a class="ranking-class-item ranking-class-second" href="javascript:;">
+                                <div class="class-num-second"></div>
+                                <img class="class-img" src="../imooc/img/class-python3.8.png" alt="">
+                                <div class="class-info">
+                                    <div class="class-info-title">Python3.8系统入门+进阶 (程序员必备第二语言)</div>
+                                    <div class="class-info-price">¥366.00</div>
+                                    <div class="class-info-studying">14236人在学</div>
+                                </div>
+                            </a>
+                            <a class="ranking-class-item ranking-class-thirt" href="javascript:;">
+                                <div class="class-num-thirt"></div>
+                                <img class="class-img" src="../imooc/img/class-python3.png" alt="">
+                                <div class="class-info">
+                                    <div class="class-info-title">Python3入门机器学习 经典算法与应用 </div>
+                                    <div class="class-info-price">¥499.00</div>
+                                    <div class="class-info-studying">5735人在学</div>
+                                </div>
+                            </a>
+                        </div>
+                        <a class="ranking-btn" href="javascript:;" target="_blank">
+                            <span>查看完整榜单</span>
+                            <i class="iconfont icon-chevrons-right"></i>
+                        </a>
+                    </div>
+                    <div class="ranking-item">
+                        <a class="ranking-tag ranking-new" href="javascript:;" target="_blank">新课榜</a>
+                        <div class="ranking-class">
+                            <a class="ranking-class-item ranking-class-first" href="javascript:;" target="_blank">
+                                <div class="class-num-first"></div>
+                                <img class="class-img" src="../imooc/img/studying-agent.jpg" alt="">
+                                <div class="class-info">
+                                    <div class="class-info-title">AI Agent智能应用从0到1定制开发 全流程解决方案实战</div>
+                                    <div class="class-info-price">¥318.00</div>
+                                    <div class="class-info-studying">难度 中级</div>
+                                </div>
+                            </a>
+                            <a class="ranking-class-item ranking-class-second" href="javascript:;">
+                                <div class="class-num-second"></div>
+                                <img class="class-img" src="../imooc/img/studying-go.jpg" alt="">
+                                <div class="class-info">
+                                    <div class="class-info-title">Go微服务系统精讲 Go-Zero全流程实战即时通讯 ( IM )</div>
+                                    <div class="class-info-price">¥349.00</div>
+                                    <div class="class-info-studying">难度 中级</div>
+                                </div>
+                            </a>
+                            <a class="ranking-class-item ranking-class-thirt" href="javascript:;">
+                                <div class="class-num-thirt"></div>
+                                <img class="class-img" src="../imooc/img/studying-algorithm.jpg" alt="">
+                                <div class="class-info">
+                                    <div class="class-info-title">小白算法集训营-大幅提升刷题量，快速逃离新手区</div>
+                                    <div class="class-info-price">¥169.00</div>
+                                    <div class="class-info-studying">难度 中级</div>
+                                </div>
+                            </a>
+                        </div>
+                        <a class="ranking-btn" href="javascript:;" target="_blank">
+                            <span>查看完整榜单</span>
+                            <i class="iconfont icon-chevrons-right"></i>
+                        </a>
+                    </div>
+                    <div class="ranking-item">
+                        <a class="ranking-tag ranking-study" href="javascript:;" target="_blank">学习榜</a>
+                        <div class="ranking-class">
+                            <a class="ranking-class-item ranking-class-first" href="javascript:;" target="_blank">
+                                <div class="class-num-first"></div>
+                                <img class="class-img" src="../imooc/img/studying-python3.8.png" alt="">
+                                <div class="class-info">
+                                    <div class="class-info-title">Python3.8系统入门+进阶 (程序员必备第二语言)</div>
+                                    <div class="class-info-price">¥366.00</div>
+                                    <div class="class-info-studying">14236人在学</div>
+                                </div>
+                            </a>
+                            <a class="ranking-class-item ranking-class-second" href="javascript:;">
+                                <div class="class-num-second"></div>
+                                <img class="class-img" src="../imooc/img/studying-front.png" alt="">
+                                <div class="class-info">
+                                    <div class="class-info-title">前端框架及项目面试 聚焦Vue3/React/Webpack</div>
+                                    <div class="class-info-price">¥399.00</div>
+                                    <div class="class-info-studying">4571人在学</div>
+                                </div>
+                            </a>
+                            <a class="ranking-class-item ranking-class-thirt" href="javascript:;">
+                                <div class="class-num-thirt"></div>
+                                <img class="class-img" src="../imooc/img/studying-c++.png" alt="">
+                                <div class="class-info">
+                                    <div class="class-info-title">P30天 零基础 系统化学会C++</div>
+                                    <div class="class-info-price">¥99.00</div>
+                                    <div class="class-info-studying">969人在学</div>
+                                </div>
+                            </a>
+                        </div>
+                        <a class="ranking-btn" href="javascript:;" target="_blank">
+                            <span>查看完整榜单</span>
+                            <i class="iconfont icon-chevrons-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mooc-learn">
+                <h3 class="learn-title">
+                    <div class="title-menu">
+                        <a class="title-item" href="javascript:;">推荐</a>
+                        <a class="title-item" href="javascript:;">计算机基础</a>
+                        <a class="title-item" href="javascript:;">前端开发</a>
+                        <a class="title-item" href="javascript:;">后端开发</a>
+                        <a class="title-item" href="javascript:;">精品免费</a>
+                    </div>
+                </h3>
+                <div class="learn-list">
+                    <a class="learn-item">
+                        <div class="card-learn-top card-learn-front">
+                            <span class="learn-tag"></span>
+                        </div>
+                        <div class="card-learn-bottom">
+                            <p class="card-learn-title">前端面试全家桶，从求职准备到面试演练 2024升级TS</p>
+                            <p class="card-learn-difficulty">中级 · 320人报名</p>
+                            <div class="card-news-price">
+                                <span class="price-current">￥1299.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="learn-item">
+                        <div class="card-learn-top card-learn-nest">
+                            <span class="learn-tag"></span>
+                        </div>
+                        <div class="card-learn-bottom">
+                            <p class="card-learn-title">2024版，React18+ Nest.js 全栈开发仿问卷星项目</p>
+                            <p class="card-learn-difficulty">中级 · 286人报名 </p>
+                            <div class="card-news-price">
+                                <span class="price-current">￥999.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="learn-item">
+                        <div class="card-learn-top card-learn-java">
+                        </div>
+                        <div class="card-learn-bottom">
+                            <p class="card-learn-title">Java主流分布式解决方案多场景设计与实战</p>
+                            <p class="card-learn-difficulty">中级 · 125人报名 </p>
+                            <div class="card-news-price">
+                                <span class="price-current">￥599.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="learn-item">
+                        <div class="card-learn-top card-learn-flutter">
+                        </div>
+                        <div class="card-learn-bottom">
+                            <p class="card-learn-title">慕课甄选-2024年Flutter零基础极速入门到进阶实战</p>
+                            <p class="card-learn-difficulty">中级 · 366人报名</p>
+                            <div class="card-news-price">
+                                <span class="price-current">￥399.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="learn-item">
+                        <div class="card-learn-top card-learn-ai">
+                        </div>
+                        <div class="card-learn-bottom">
+                            <p class="card-learn-title">前AI人人必修-提示词工程+大模型多场景实战（丰富资料)</p>
+                            <p class="card-learn-difficulty">初级 · 293人报名 </p>
+                            <div class="card-news-price">
+                                <span class="price-current">￥299.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="learn-item">
+                        <div class="card-learn-top card-learn-csre">
+                        </div>
+                        <div class="card-learn-bottom">
+                            <p class="card-learn-title">5月开考，火热报名中，信息系统项目管理师(软考高级）</p>
+                            <p class="card-learn-difficulty">高级 · 129人报名 </p>
+                            <div class="card-news-price">
+                                <span class="price-current">￥899.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="learn-item">
+                        <div class="card-learn-top card-learn-webgl">
+                        </div>
+                        <div class="card-learn-bottom">
+                            <p class="card-learn-title">WebGL+Three.js 入门与实战，系统学习 Web3D 技术</p>
+                            <p class="card-learn-difficulty">入门 · 969人报名 </p>
+                            <div class="card-news-price">
+                                <span class="price-current">￥348.00</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="learn-item">
+                        <div class="card-learn-top card-learn-c">
+                        </div>
+                        <div class="card-learn-bottom">
+                            <p class="card-learn-title">C++数据开放平台实战，手把手教你做工业级项目</p>
+                            <p class="card-learn-difficulty">中级 · 123人报名 </p>
+                            <div class="card-news-price">
+                                <span class="price-current">￥568.00</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="line-section">
+            <div class="line-learnpath">
+                <h3 class="learnpath-title">
+                    <div class="title-menu">
+                        <a class="title-item" href="javascript:;">推荐</a>
+                        <a class="title-item" href="javascript:;">前端开发</a>
+                        <a class="title-item" href="javascript:;">后端开发</a>
+                        <a class="title-item" href="javascript:;">移动开发</a>
+                    </div>
+                    <a class="learnpath-more" href="javascript:;">全部</a>
+                </h3>
+                <div class="learnpath-list">
+                    <a class="learnpath-item" href="javascript:;" target="_blank">
+                        <div class="learnpath-img learnpath-python"></div>
+                        <p class="learnpath-detail">从Python入门/统计学基础到工业级量化交易策略实战，能力逐步提升，让你成为职业的量化交易开发工程师，进军前景可观的金融高薪领域。
+                        </p>
+                        <div class="learnpath-information">
+                            <div class="learnpath-information-step">
+                                <span>4步骤</span>
+                                ·
+                                <span>4门课</span>
+                            </div>
+                            <div class="learnpath-information-collection">243收藏</div>
+                        </div>
+                    </a>
+                    <a class="learnpath-item" href="javascript:;" target="_blank">
+                        <div class="learnpath-img learnpath-k8s"></div>
+                        <p class="learnpath-detail">K8s系统性入门到深入原理，以及生产落地实践，充分运用K8s特性进行云原生微服务领域开发，并掌握云原生底层的开发技术。
+                        </p>
+                        <div class="learnpath-information">
+                            <div class="learnpath-information-step">
+                                <span>4步骤</span>
+                                ·
+                                <span>4门课</span>
+                            </div>
+                            <div class="learnpath-information-collection">76收藏</div>
+                        </div>
+                    </a>
+                    <a class="learnpath-item" href="javascript:;" target="_blank">
+                        <div class="learnpath-img learnpath-java"></div>
+                        <p class="learnpath-detail">路线吃透面试学问，伴随身为Java工程师的你一路成长，高效充分准备面试拿offer。
+                        </p>
+                        <div class="learnpath-information">
+                            <div class="learnpath-information-step">
+                                <span>4步骤</span>
+                                ·
+                                <span>4门课</span>
+                            </div>
+                            <div class="learnpath-information-collection">11336收藏</div>
+                        </div>
+                    </a>
+                    <a class="learnpath-item" href="javascript:;" target="_blank">
+                        <div class="learnpath-img learnpath-computer"></div>
+                        <p class="learnpath-detail">本路线精选程序员必修的计算机基础核心知识，有序打基础职场走更远。
+                        </p>
+                        <div class="learnpath-information">
+                            <div class="learnpath-information-step">
+                                <span>5步骤</span>
+                                ·
+                                <span>5门课</span>
+                            </div>
+                            <div class="learnpath-information-collection">11349收藏</div>
+                        </div>
+                    </a>
+                    <a class="learnpath-item" href="javascript:;" target="_blank">
+                        <div class="learnpath-img learnpath-algorithm"></div>
+                        <p class="learnpath-detail">大厂校招、社招 算法数据结构类问题一网打尽。
+                        </p>
+                        <div class="learnpath-information">
+                            <div class="learnpath-information-step">
+                                <span>4步骤</span>
+                                ·
+                                <span>4门课</span>
+                            </div>
+                            <div class="learnpath-information-collection">101收藏</div>
+                        </div>
+                    </a>
+                    <a class="learnpath-item" href="javascript:;" target="_blank">
+                        <div class="learnpath-img learnpath-5g"></div>
+                        <p class="learnpath-detail">对标大厂岗位需求，从音视频基础入门、处理核心技术到服务器设计开发 ，全面培养5G时代人才。
+                        </p>
+                        <div class="learnpath-information">
+                            <div class="learnpath-information-step">
+                                <span>6步骤</span>
+                                ·
+                                <span>6门课</span>
+                            </div>
+                            <div class="learnpath-information-collection">1246收藏</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="footer-social-content">
+            <div class="footer-social-container">
+                <div class="social-container-left">
+                    <div class="social-contact">
+                        <a class="social-contact-title" href="javascript:;">企业服务</a>
+                        <a class="social-contact-title" href="javascript:;">网站地图</a>
+                        <a class="social-contact-title" href="javascript:;">关于我们</a>
+                        <a class="social-contact-title" href="javascript:;">联系我们</a>
+                        <a class="social-contact-title" href="javascript:;">讲师招募</a>
+                        <a class="social-contact-title" href="javascript:;">帮助中心</a>
+                        <a class="social-contact-title" href="javascript:;">意见反馈</a>
+                        <a class="social-contact-title" href="javascript:;">代码托管</a>
+                    </div>
+                    <div class="social-copyright">
+                        <p class="social-copyright-detail">
+                            Copyright<img class="copyright-tag" src="../imooc/img/copyright-tag.png" alt="">
+                            2024 imooc.com
+                            <a class="copyright-filings" href="javascript:;" target="_blank">京ICP备 12003892号-11</a>
+                            <a class="copyright-police" href="javascript:;" target="_blank">
+                                <i class="copyright-police-tag"></i>京公网安备11010802030151号
+                            </a>
+                            <a class="copyright-license" href="javascript:;" target="_blank">营业执照</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="social-container-right">
+                    <div class="social-link">
+                        <a class="social-medium social-web" href="javascript:;">
+                            <span class="iconfont icon-shoucang"></span>
+                        </a>
+                        <p class="social-link-text">收藏网站</p>
+                    </div>
+                    <div class="social-link">
+                        <a class="social-medium social-wechat" href="javascript:;">
+                            <span class="iconfont icon-weixin"></span>
+                        </a>
+                        <p class="social-link-text">官方公众号</p>
+                    </div>
+                    <div class="social-link">
+                        <a class="social-medium social-microblog" href="javascript:;">
+                            <span class="iconfont icon-weibo"></span>
+                        </a>
+                        <p class="social-link-text">官方微博</p>
+                    </div>
+                    <div class="social-link">
+                        <a class="social-medium social-qq" href="javascript:;">
+                            <span class="iconfont icon-qq01"></span>
+                        </a>
+                        <p class="social-link-text">官方空间</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-link-content">
+            <div class="footer-link-container">
+                <div class="footer-link-title">友情链接：</div>
+                <div class="footer-link-list">
+                    <a class="footer-link-item" href="javascript:;">帮考网</a>
+                    <a class="footer-link-item" href="javascript:;">慕课教程</a>
+                    <a class="footer-link-item" href="javascript:;">育路教育</a>
+                    <a class="footer-link-item" href="javascript:;">图片素材</a>
+                    <a class="footer-link-item" href="javascript:;">精英考试网</a>
+                    <a class="footer-link-item" href="javascript:;">求艺网</a>
+                    <a class="footer-link-item" href="javascript:;">橡皮牛教育网</a>
+                    <a class="footer-link-item" href="javascript:;">高顿教育</a>
+                    <a class="footer-link-item" href="javascript:;">W3Cschool</a>
+                    <a class="footer-link-item" href="javascript:;">会计学堂</a>
+                    <a class="footer-link-item" href="javascript:;">招生信息网</a>
+                    <a class="footer-link-item" href="javascript:;">慕课专题</a>
+                    <a class="footer-link-item" href="javascript:;">起点课堂</a>
+                    <a class="footer-link-item" href="javascript:;">在职研究生</a>
+                    <a class="footer-link-item" href="javascript:;">溜溜自学网</a>
+                    <a class="footer-link-item" href="javascript:;">人人都是产品经理</a>
+                    <a class="footer-link-item" href="javascript:;">考研</a>
+                    <a class="footer-link-item" href="javascript:;">节日作文范文</a>
+                    <a class="footer-link-item" href="javascript:;">新东方前途出国</a>
+                    <a class="footer-link-item" href="javascript:;">APP开发</a>
+                    <a class="footer-link-item" href="javascript:;">好发表 </a>
+                    <a class="footer-link-item" href="javascript:;">CRMEB</a>
+                    <a class="footer-link-item" href="javascript:;">CG教育</a>
+                    <a class="footer-link-item" href="javascript:;">大风车网</a>
+                    <a class="footer-link-item" href="javascript:;">组卷网</a>
+                    <a class="footer-link-item" href="javascript:;">高考志愿填报</a>
+                    <a class="footer-link-item" href="javascript:;">运营营销推广</a>
+                    <a class="footer-link-item" href="javascript:;">西部数码</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
